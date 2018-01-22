@@ -14,7 +14,6 @@ function createProject(projectName, gitRepository) {
   }
   
   cloneRepository(gitRepository).then((sourePath) => {
-    sourePath = path.resolve(__dirname, sourePath)
     const projectPath = path.resolve(process.cwd(), projectName)
     if (!fs.existsSync(projectPath)) {
       fs.mkdirSync(projectPath)
