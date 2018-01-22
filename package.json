@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "sugar-cli",
+  "version": "0.1.0",
+  "description": "generate a project by a git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sugar": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.rajax.me/changjun.li/sugar-cli.git"
+  },
+  "author": "changjun.li@ele.me",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "cross-spawn": "^5.1.0",
+    "fs-extra": "^5.0.0"
+  }
+}
