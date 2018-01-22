@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "sugar-cli",
   "version": "0.1.0",
   "description": "generate a project by a git repository",
