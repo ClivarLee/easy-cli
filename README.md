@@ -1,5 +1,3 @@
-# sugar-cli
-
 ## 安装
 
 ```bash
