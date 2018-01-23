@@ -9,4 +9,4 @@
 ```bash
   $ gits my-app https://git.rajax.me/GITS/Gits-dva.git
 ```
-注意：只支持http拉取代码
+> 注意：只支持http拉取代码
