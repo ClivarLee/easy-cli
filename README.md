@@ -1,10 +1,12 @@
-# 安装
+# sugar-cli
+
+## 安装
 
 ```bash
   $ npm install gits -g
 ```
 
-# 使用
+## 使用
 
 ```bash
   $ gits my-app https://git.rajax.me/GITS/Gits-dva.git
