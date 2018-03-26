@@ -7,6 +7,6 @@
 ## 使用
 
 ```bash
-  $ gits my-app https://git.rajax.me/GITS/Gits-dva.git
+  $ gits my-app http://xxx.xx.com
 ```
 > 注意：只支持http拉取代码
