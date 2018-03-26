@@ -32,7 +32,7 @@ if (!gitRepository) {
   console.log('Please specify the git repository')
   process.exit(0)
 }
-const httpReg = /^\s*(http?s:\/\/)/
+const httpReg = /^\s*(http(s?):\/\/)\w?/
 if (!httpReg.test(gitRepository)) {
   console.log('Please specify a git repository that starts with http or https')
   process.exit()
